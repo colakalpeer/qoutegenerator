@@ -20,8 +20,7 @@ const quotes = [ {
     quote: `"Tell me and I forget. Teach me and I remember. Involve me and I learn."` ,
     person: `Benjamin Franklin`
 }, {
-    quote: `"If you look at what you have in life, you'll always have more. If you look at what you don't
-    have in life, you'll never have enough."` ,
+    quote: `"If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough."` ,
     person: `Oprah Winfrey`
 }, {
     quote: `"It does not matter how slowly you go as long as you do not stop."` ,
@@ -42,7 +41,7 @@ const quotes = [ {
 
 btn.addEventListener('click' , function(){
 
-    let random = Math.floor(Math.random() *  quotes.length);
+    let random = Math.floor(Math.random() * quotes.length);
     quote.innerText = quotes[random].quote;
     person.innerText = quotes[random].person;
 })
